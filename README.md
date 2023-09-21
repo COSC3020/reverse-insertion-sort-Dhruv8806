@@ -37,3 +37,10 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+Explanation:
+I believe the average case time complexity will be Θ(n^2). We can assume as looking at the “for” loops. It’s because in the inner loop iteration of n that shifts in each iteration. The outer loop goes through each element in array running n-1 times. On an average we roughly need to make (n) * (n-1) operations. In asymptotic analysis, we wouldn’t care about constant factors as we would focus mostly on algorithm’s performance with input size. 
+
+Sources Used: 
+Consulted to TA in lab time. 
+https://www.khanacademy.org/computing/computer-science/algorithms/insertion-sort/a/analysis-of-insertion-sort
